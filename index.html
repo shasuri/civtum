@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf8"/>
+    <title>
+        This is vanilla!
+    </title>
+    <link href="./css/styles.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+    
+    <div class="nonEventArea">
+
+        <div class = "jsClock center clock">
+            <h1 class="jsTitle">00:00:00</h1>
+        </div>
+
+        <div class="center">
+            <h1 class="jsWeather"></h1>
+        </div>
+
+        <div class="center">
+            <form class="jsForm hide">
+                <input class = "name_input" type="text" placeholder="What is your name?"/>
+            </form>
+
+            <h4 class = "jsGreetting hide name_display">
+                Hello, random guy!
+            </h4>
+        </div> 
+        
+        <div class="name center">
+            <form class="jsTodoForm">
+                <input class="name_input" type="text" placeholder="Write To Do List."/>
+            </form>
+            
+            <ul class="jsTodoList"> 
+            </ul>
+        </div>
+
+    </div>
+
+    <script src="./js/background.js"></script>
+    <script src="./js/clock.js"></script>
+    <script src="./js/greetting.js"></script>
+    <script src="./js/todo.js"></script>
+    <!-- <script src="./js/weather.js"></script> -->
+    
+</body>
+</html>

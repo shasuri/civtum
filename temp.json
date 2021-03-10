@@ -1,0 +1,35 @@
+{
+    "coord": { "lon": 129.3517, "lat": 35.5448 },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 5,
+        "feels_like": 1.17,
+        "temp_min": 5,
+        "temp_max": 5,
+        "pressure": 1024,
+        "humidity": 81
+    },
+    "visibility": 10000,
+    "wind": { "speed": 3.09, "deg": 360 },
+    "clouds": { "all": 0 },
+    "dt": 1613060940,
+    "sys": {
+        "type": 1,
+        "id": 8086,
+        "country": "KR",
+        "sunrise": 1613081574,
+        "sunset": 1613120456
+    },
+    "timezone": 32400,
+    "id": 1833747,
+    "name": "Ulsan",
+    "cod": 200
+}
